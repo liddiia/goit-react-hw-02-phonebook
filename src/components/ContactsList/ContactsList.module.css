@@ -1,0 +1,31 @@
+.contactItem{
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.delButton{
+    margin-left: 15px;
+    padding: 5px;
+}
+.delButton:focus,
+.delButton:hover{
+   
+    background-color: red;
+    color: aliceblue;
+  
+
+}
+.tel{
+    margin-left: 15px;
+}
+.list{display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid green;
+    background-color: aquamarine;
+    width: 75%;
+    border-radius: 10px;
+}
