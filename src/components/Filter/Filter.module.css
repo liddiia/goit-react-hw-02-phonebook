@@ -6,11 +6,12 @@
     width: 75%;
     border-radius: 10px;
     border: 2px solid green;
-    background-color: aquamarine;
+    background-color: rgb(73, 230, 159);
 justify-content: center;
 }
 .filterInput{
     border:1px solid rgb(23, 25, 23);
     border-radius: 5px;  
  padding: 5px;
+ margin-left: 20px;
 }
