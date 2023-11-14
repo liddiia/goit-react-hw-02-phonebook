@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { nanoid } from 'nanoid';
-import css from '/App.module.css';
+import css from './App.module.css';
 import { Notify } from 'notiflix';
 import { ContactsList } from './ContactsList/ContactsList';
 import { Filter } from './Filter/Filter';
@@ -48,10 +48,8 @@ cont.name.toLowerCase() === contact.name.toLowerCase()
   }
 
   render(){
-   
-    return (
-      
-<>
+       return (
+     <>
 <h1 className={css.titel}>Phonebook</h1>
 <ContactForm addContact={this.addContact}/>
 <h2 className={css.subtitel}>Contacts</h2>
