@@ -17,7 +17,7 @@ export class App extends Component {
 
   addContact  = (contact) => {
     const hasDuplicates = this.state.contacts.some(cont =>
-cont.name === contact.name
+cont.name.toLowerCase() === contact.name.toLowerCase()
     )
     if(hasDuplicates){
       Notify.failure(`${contact.name} is already exists`)
@@ -59,8 +59,8 @@ cont.name === contact.name
         filterContacts={this.filterContacts} />
 <ContactsList handlerDel={this.deleteContact}
         filteredContacts={this.handlerFilter}
-        filter ={this.filter}
-        contacts ={contacts} />
+        
+        />
 </>
 );
   }}
