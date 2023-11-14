@@ -27,7 +27,6 @@ cont.name.toLowerCase() === contact.name.toLowerCase()
         contacts: [...prevState.contacts, contact],
       }))
     };
-
   deleteContact = (id) => {
       this.setState((prevState) => ({
         contacts: prevState.contacts.filter((contact) => contact.id!== id),
