@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { nanoid } from 'nanoid';
-import css from './App.module.css';
+import css from '/App.module.css';
 import { Notify } from 'notiflix';
 import { ContactsList } from './ContactsList/ContactsList';
 import { Filter } from './Filter/Filter';
@@ -55,7 +55,7 @@ cont.name.toLowerCase() === contact.name.toLowerCase()
 <h1 className={css.titel}>Phonebook</h1>
 <ContactForm addContact={this.addContact}/>
 <h2 className={css.subtitel}>Contacts</h2>
- <Filter filter ={filter}
+ <Filter filter ={Filter}
         filterContacts={this.filterContacts} />
 <ContactsList handlerDel={this.deleteContact}
         filteredContacts={this.handlerFilter}
